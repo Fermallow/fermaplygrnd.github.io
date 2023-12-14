@@ -1,0 +1,32 @@
+@font-face {
+  font-family: clashdisplay;
+  src: url(font/ClashDisplay-Medium.ttf);
+}
+@font-face {
+  font-family: clashdisplay-semibold;
+  src: url(font/ClashDisplay-Semibold.ttf);
+  }
+@font-face {
+  font-family: montserrat;
+  src: url(font/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: jetbrains;
+  src: url(font/JetBrainsMono-Medium.ttf);
+}
+body {
+  background-color: rgb(12, 12, 12);
+}
+p {
+  color: rgb(242, 242, 242);
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 120px;
+  font-family: clashdisplay;
+  font-size: 100px;
+}
+a {
+  color: rgb(242, 242, 242);
+  font-family: clashdisplay;
+  font-size: 20px;
+}
