@@ -15,18 +15,64 @@
   src: url(font/JetBrainsMono-Medium.ttf);
 }
 body {
-  background-color: rgb(128, 25, 25);
+  background-color: rgb(12, 12, 12);
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(4, 4, 4);
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  width:100%;
+  z-index: 99999;
 }
 p {
   color: rgb(242, 242, 242);
-  text-align: center;
   margin-top: 200px;
+  margin-left: 100px;
   margin-bottom: 120px;
   font-family: clashdisplay;
-  font-size: 100px;
+  font-size: 150px;
 }
-a {
+p.links {
+  margin-top: 100px;
+}
+p.info {
+  margin-right: 100px;
+  font-family: clashdisplay;
+  font-size: 40px;
+}
+
+img.sosmed-icon {
+  position: relative;
+  vertical-align: middle;
+  bottom: 0.08em;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+a.fermallow {
+  float: left;
+  padding: 20px 30px;
   color: rgb(242, 242, 242);
   font-family: clashdisplay;
-  font-size: 20px;
+  font-size: 50px;
 }
+button.sosmed{
+  padding: 20px 40px;
+  margin-top: 50px;
+  margin-left: 100px;
+  color: rgb(242, 242, 242);
+  font-family: montserrat;
+  font-size: 30px;
+  border-style: none;
+  background-color: rgb(12, 12, 12);
+}
+button:hover {
+  filter: invert(100%);
+}
+
+/* sumpah lu ngapain ada disini */
